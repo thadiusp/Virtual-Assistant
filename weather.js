@@ -18,7 +18,6 @@ function getWeather() {
       weather.appendChild(img);
       para.innerHTML = `City: ${city} <br> Temp: ${fTemp}F <br> Weather: ${wx}`;
       img.src = `${wxIcon}`;
-      //console.log(`City: ${city}, Temp: ${fTemp}F, Weather: ${wx}, Weather Icon: ${wxIcon}`);
     })
     .catch(console.error);
 }
