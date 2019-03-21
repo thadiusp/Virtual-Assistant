@@ -1,4 +1,4 @@
-const api = 'f76d4358d0078025c2a282a82459560e'
+const api = 'insert api key here'
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Indianapolis&appid=';
 let para = document.createElement('p');
 let img = document.createElement('img');
