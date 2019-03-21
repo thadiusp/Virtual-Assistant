@@ -1,4 +1,4 @@
-const apiKey = '&key=AIzaSyCgjecCbN6_rNPIbkzEPFkglUPyoZrkl9A';
+const apiKey = '&key=insert api key here';
 const urlTravel = 'https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&';
 const origin = 'origins=';
 const dest = '&destinations=';
