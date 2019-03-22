@@ -8,6 +8,7 @@ let home = '5904+Prairie+Creek+Drive+Indianapolis+IN';
 let work = '1000+North+Meridian+Indianapolis+IN';
 let loc;
 
+//get travel times TODO: I need to figure out how to make the origin and dest dynamic
 /*function destination(word) {
   console.log(word); //word is undefined. How do I make it defined?
   if (word.includes('work')) {
@@ -22,7 +23,7 @@ let loc;
 loc = destination();
 
 console.log(loc);*/
-//get travel times TODO: I need to figure out how to make the origin and dest dynamic
+
 function getTravelTime() {
   fetch(urlTravel + origin + home + dest + work + apiKey)
     .then(response => response.json())
