@@ -4,18 +4,18 @@ const origin = 'origins=';
 const dest = '&destinations=';
 let tPara = document.createElement('p');
 const travel = document.querySelector('#data');
-let home = '5904+Prairie+Creek+Drive+Indianapolis+IN';
-let work = '1000+North+Meridian+Indianapolis+IN';
+let home = 'Enter+Home+Address+here';
+let work = 'Enter+Work+Address+here';
 let loc;
 
 //get travel times TODO: I need to figure out how to make the origin and dest dynamic
 /*function destination(word) {
   console.log(word); //word is undefined. How do I make it defined?
   if (word.includes('work')) {
-    const work = '1000+North+Meridian+Indianapolis+IN';
+    const work = 'Enter+Work+Address+here';
     return work;
   } else if (word.includes('home')) {
-    const home = '5904+Prairie+Creek+Drive+Indianapolis+IN';
+    const home = 'Enter+Home+Address+here';
     return home;
   }
 }
