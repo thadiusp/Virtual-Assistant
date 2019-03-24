@@ -58,14 +58,13 @@ function timeout() {
   setTimeout(
     function() {
       if (!runOnce) {
-      console.log('You are welcome sir.');
       turnOn.classList.remove('turnOn');
       turnOn.querySelector('p').remove();
       if ('img') {
         turnOn.querySelector('img').remove();
       }
       runOnce = true;
-    }}, 2000)
+    }}, 4000)
 }
 
 recognition.addEventListener('result', showText);
