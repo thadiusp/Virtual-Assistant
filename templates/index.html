@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  {% block content %}
   <div id="text"></div>
   <div id="assistant"></div>
   <div id="data"></div>
@@ -19,7 +20,7 @@
   <script src="weather.js"></script>
   <script src="travel_time.js"></script>
   <script src="speak_to_me.js"></script>
-
+  {% endblock %}
 </body>
 
 </html>
