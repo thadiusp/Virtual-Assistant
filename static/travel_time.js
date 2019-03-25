@@ -1,11 +1,11 @@
-const apiKey = '&key=AIzaSyAUQO-TSwzzGhvqdUsO1m2aS5t05ovb19U';
+const apiKey = '&key=Add API key here';
 const urlTravel = 'https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&';
 const origin = 'origins=';
 const dest = '&destinations=';
 let tPara = document.createElement('p');
 const travel = document.querySelector('#data');
-let home = '5904+Prairie+Creek+Dr+indianapolis+in';
-let work = '1000+North+Meridian+indianapolis+in';
+let home = 'Add+home+address+here';
+let work = 'Add+work+address+here';
 let loc;
 
 //get travel times TODO: I need to figure out how to make the origin and dest dynamic
